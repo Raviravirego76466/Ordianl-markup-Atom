@@ -22,11 +22,11 @@ function HSL(hue) {
   X = Math.round(X * 255);
   let R = 0, G = 0, B = 0;
   if (hue < 60) {
-    R = 255;
+    R = 90;
     G = X;
   } else if (hue < 120) {
     R = X;
-    G = 255;
+    G = 100;
   } else if (hue < 180) {
     G = 255;
     B = X;
