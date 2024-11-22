@@ -108,11 +108,11 @@ function setMarks() {
   tempList = [];
   tempList.push("ψ(ε(⚛2)×x)");
   ordMarks[2].forEach(item => {
-    tempList.push(item.replace("ψ(", "ψ(ε(Ω2)×"));
+    tempList.push(item.replace("ψ(", "ψ(ε(⚛2)×"));
   });
   tempList.push("ψ(ε(Ω2)^(2)×x)");
   ordMarks[2].forEach(item => {
-    tempList.push(item.replace("ψ(", "ψ(ε(Ω2)^(2)×x"));
+    tempList.push(item.replace("ψ(", "ψ(ε(⚛2)^(2)×x"));
   });
   ordMarks[2] = ordMarks[2].concat(tempList);
 }
